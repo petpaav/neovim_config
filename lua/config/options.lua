@@ -1,0 +1,16 @@
+vim.g.have_nerd_font = true
+
+vim.opt.shiftwidth = 4
+
+vim.opt.number = true
+vim.opt.mouse = 'a'
+vim.schedule(function() vim.o.clipboard = 'unnamedplus' end)
+
+vim.opt.undofile = ture
+
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+vim.opt.cursorline = true
+vim.opt.scrolloff = 10
+vim.opt.confirm = true
