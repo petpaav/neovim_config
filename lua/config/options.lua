@@ -1,10 +1,9 @@
 vim.g.have_nerd_font = true
-
 vim.opt.shiftwidth = 4
 
 vim.opt.number = true
 vim.opt.mouse = 'a'
-vim.schedule(function() vim.o.clipboard = 'unnamedplus' end)
+vim.o.clipboard = 'unnamedplus'
 
 vim.opt.undofile = ture
 
